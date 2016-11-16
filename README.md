@@ -13,7 +13,7 @@ color.log('My message', 'orange');
 ```
 
 ## Load into another js file  
-Include ConsoleColors.JS in with jQuery
+With jQuery
    
 ```javascript 
 $.getScript("ConsoleColors.js", function(){
