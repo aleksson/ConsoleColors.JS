@@ -8,7 +8,10 @@ Include ConsoleColors.JS in your project
 ## Front-end Example  
    
 ```javascript 
-color.log('My message', 'orange');
+console.log("console with text colors","darkred");
+console.log("console with background colors","black","orange");
+console.log("console with border","cyan","green",true);
+console.log("and border colors","cyan","green",true,"purple");
 
 ```
 
