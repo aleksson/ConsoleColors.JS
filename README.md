@@ -3,8 +3,31 @@ A Sexy Console.log
 
      Inspired by firebugs style prefix effects - %c
      Examples - https://coderwall.com/p/fskzdw/colorful-console-log
+     
+<Console.Colors.JS Page - https://console.acolab.it>
    
 Include ConsoleColors.JS in your project 
+
+
+#Parameters
+>text, text-color, background-color, border, border-color
+
+###     [1]  Text 
+     String
+     
+###     [2]  Text Color 
+     String or RGB code
+      
+###     [3]  Background Color 
+     String or RGB code
+     
+###     [4]  Border
+     Boolean - if set to TRUE (2px solid black)
+     
+###     [5]  Border Color  
+     String or RGB code
+
+
 ## Front-end Example  
    
 ```javascript 
