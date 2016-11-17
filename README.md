@@ -7,6 +7,9 @@ A Sexy Console.log
 <Console.Colors.JS Page - https://console.acolab.it>
    
 Include ConsoleColors.JS in your project 
+```html 
+<script type="text/javascript" src="js/colors.js"></script>
+```
 
 
 #Parameters
