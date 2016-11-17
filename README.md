@@ -8,7 +8,7 @@ A Sexy Console.log
    
 Include ConsoleColors.JS in your project 
 ```html 
-<script type="text/javascript" src="js/colors.js"></script>
+<script type="text/javascript" src="js/ConsoleColors.js"></script>
 ```
 
 
