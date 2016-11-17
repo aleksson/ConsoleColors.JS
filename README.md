@@ -5,7 +5,7 @@ A Colorful Console.log
      Examples - https://coderwall.com/p/fskzdw/colorful-console-log
      
      
-## Live Demo at <http://colors.acolab.it>
+## Live Demo at <http://www.colors.acolab.it>
 <Console.Colors.JS Page - https://console.acolab.it>
    
 Include ConsoleColors.JS in your project 
