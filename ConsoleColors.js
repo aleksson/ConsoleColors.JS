@@ -21,14 +21,14 @@ console.ok = function (text) {
 console.warn = function (text) {
     text = '%c ' + text +' ';
     style = 'color:white;';
-    style += 'background:red;';
+    style += 'background:orange;';
     return log(text,style);
 }
 
 console.error = function (text) {
     text = '%c ' + text +' ';
     style = 'color:white;';
-    style += 'background:orange;';
+    style += 'background:red;';
     return log(text,style);
 }
 
