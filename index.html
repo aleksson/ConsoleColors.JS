@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Console.Colors</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='./ConsoleColors.js'></script>
+    <style></style>
+</head>
+<body>
+    <main>
+        <h1>Console.Colors</h1>
+
+        <div>
+            <p>Open The Console</p>
+            
+            <p>Click the "Preview" button to see the style selected style</p>
+            <hr/>
+        </div>
+        
+
+        <div>
+            <h3>Choose Colors : </h3>
+            <label for="text-color">Text</label>
+            <select name="text-color" title="text-color">
+                <option>White</option>
+                <option selected>Black</option>
+                <option>Orange</option>
+                <option>Green</option>
+                <option>Purple</option>
+                <option>Cyan</option>
+            </select>
+            
+            <label for="background-color">Background</label>
+            <select name="background-color" title="background-color">
+                <option selected>Orange</option>
+                <option>Black</option>
+                <option>Green</option>
+                <option>Purple</option>
+                <option>Cyan</option>
+            </select>
+
+            <label for="border-color">Border</label>
+            <select name="border-color" title="border-color">
+                <option>Orange</option>
+                <option selected>Black</option>
+                <option>Green</option>
+                <option>Purple</option>
+                <option>Cyan</option>
+            </select>
+        </div>
+
+        <input type="text" value="This is a preview..." />
+        <!-- <textarea cols="59" rows="10" aria-label="text"></textarea> -->
+
+        <buttton class="btn" onclick="preview();">Preview</buttton>
+
+    </main>
+</body>
+<script type="text/javascript">
+
+    // document.getElementsByTagName('textarea')[0].innerText = "Lorem ipsum....";
+    document.getElementsByTagName('input')[0].value = " ConsoleColors is Awsome! ";
+
+    const preview = () => {
+
+        // const txt = document.getElementsByTagName('textarea')[0].value;
+        const txt = document.getElementsByTagName('input')[0].value;
+        const txtColor = getSelectedValue("text-color");
+        const bgColor = getSelectedValue("background-color");
+        const borderColor = getSelectedValue("border-color");
+
+        console.log(`Text Color : ${txtColor}\nBackground Color : ${ bgColor }\nBorder Color : ${borderColor}`);
+        console.log(txt, txtColor, bgColor, false, borderColor);
+    }
+
+    const getSelectedValue = (name) => {
+        if(!name) return console.error("NO TARGET PROVIDED");
+        try{
+            return String(document.getElementsByName(name)[0].value).toLowerCase();
+        }catch(err){
+            return console.warn(`TARGET NOT FOUND : '${name}'`);
+        }
+    }
+</script>
+</html>
