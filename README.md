@@ -3,12 +3,10 @@ A Colorful Console.log
 
      Inspired by firebugs style prefix effects - %c
      Examples - https://coderwall.com/p/fskzdw/colorful-console-log
+     Documentation : https://developer.mozilla.org/en-US/docs/Web/API/console#styling_console_output
      
-     
-## Live Demo at <http://www.colors.acolab.it>
-<Console.Colors.JS Page - https://console.acolab.it>
    
-Include ConsoleColors.JS in your project 
+Add/Include the JS file in your page/project
 ```html 
 <script type="text/javascript" src="ConsoleColors.js"></script>
 ```

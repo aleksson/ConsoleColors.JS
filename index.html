@@ -6,7 +6,7 @@
     <title>Console.Colors</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='./ConsoleColors.js'></script>
+    <script src='./newConsole.js'></script>
     <style></style>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <div>
             <p>Open The Console</p>
             
-            <p>Click the "Preview" button to see the style selected style</p>
+            <p>Click the "Preview" button to see the selected console style</p>
             <hr/>
         </div>
         
@@ -73,7 +73,7 @@
         const borderColor = getSelectedValue("border-color");
 
         console.log(`Text Color : ${txtColor}\nBackground Color : ${ bgColor }\nBorder Color : ${borderColor}`);
-        console.log(txt, txtColor, bgColor, false, borderColor);
+        console.logg(txt, txtColor, bgColor, false, borderColor);
     }
 
     const getSelectedValue = (name) => {
